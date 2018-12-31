@@ -10,15 +10,12 @@ class App extends Component {
 
   render() {
     return (
-        <div className="App scrollbar">
-          <div className="container">
+        <section class="container">
+          <div className="left-half">
             <img src="backgrounds/musicRoomBackground3.png" alt="Music Room" style={{width:"100%"}} />
-            <div className="text-block">
-              <h3>Pick your instrument!</h3>
-            </div>
           </div>
 
-          <div className="scrolling-wrapper" onClick={this.playInstrument}>
+          <div className="right-half" onClick={this.playInstrument}>
             <img src="pics/Instruments/TN_accordion.jpg" alt="accordion" className="input" />
             <img src="pics/Instruments/TN_acoustic_guitar.jpg" alt="acoustic_guitar" className="input" />
             <img src="pics/Instruments/TN_bagpipe.jpg" alt="acoustic_guitar"className="input" />
@@ -38,7 +35,7 @@ class App extends Component {
             <img src="pics/Instruments/TN_violin.jpg" alt="violin" className="input" />
             <img src="pics/Instruments/TN_xylophone.jpg" data-sound="music/xylophone1.wav" alt="xylophone" className="input" />
           </div>
-        </div>
+        </section>
     );
   }
 }
