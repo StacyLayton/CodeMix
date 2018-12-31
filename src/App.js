@@ -10,30 +10,36 @@ class App extends Component {
 
   render() {
     return (
-        <section class="container">
+        <section class="container" align="center">
           <div className="left-half">
-            <img src="backgrounds/musicRoomBackground3.png" alt="Music Room" style={{width:"100%"}} />
+            <img src="pics/TimelinePhotos/AnaandJared_Christmas2008.jpg" alt="Timeline" width="1000" />
           </div>
 
-          <div className="right-half" onClick={this.playInstrument}>
-            <img src="pics/Instruments/TN_accordion.jpg" alt="accordion" className="input" />
-            <img src="pics/Instruments/TN_acoustic_guitar.jpg" alt="acoustic_guitar" className="input" />
-            <img src="pics/Instruments/TN_bagpipe.jpg" alt="acoustic_guitar"className="input" />
-            <img src="pics/Instruments/TN_banjo.jpg" data-sound="music/banjo.mp3" alt="acoustic_guitar"className="input" />
-            <img src="pics/Instruments/TN_cello.jpg" alt="cello" className="input" />
-            <img src="pics/Instruments/TN_clarinet.jpg" data-sound="music/clarinet.mp3" alt="clarinet" className="input" />
-            <img src="pics/Instruments/TN_drum.jpg" data-sound="music/snare-drum.mp3" alt="drum" className="input" />
-            <img src="pics/Instruments/TN_french_horn.jpg" alt="french_horn" className="input" />
-            <img src="pics/Instruments/TN_harp.jpg" alt="harp" className="input" />
-            <img src="pics/Instruments/TN_keyboard.jpg" data-sound="music/keyboard.wav" alt="keyboard" className="input" />
-            <img src="pics/Instruments/TN_red-color-electric-guitar.jpg" data-sound="music/electric-guitar1.wav" alt="electric-guitar" className="input" />
-            <img src="pics/Instruments/TN_saxophone.jpg" alt="saxophone" className="input" />
-            <img src="pics/Instruments/TN_trombone.jpg" data-sound="music/trombone2.mp3" alt="trombone" className="input" />
-            <img src="pics/Instruments/TN_trumpet.jpg" alt="trumpet" className="input" />
-            <img src="pics/Instruments/TN_tuba.jpg" data-sound="music/tuba.mp3" alt="tuba" className="input" />
-            <img src="pics/Instruments/TN_viola.jpg" data-sound="music/viola.mp3" alt="viola" className="input" />
-            <img src="pics/Instruments/TN_violin.jpg" alt="violin" className="input" />
-            <img src="pics/Instruments/TN_xylophone.jpg" data-sound="music/xylophone1.wav" alt="xylophone" className="input" />
+          <div className="text-block">
+            <p>Stacy Layton</p>
+          </div>
+
+          <div className="right-half" onClick={this.playInstrument} align="left">
+            <p>LAYTON FAMILY TIMELINE</p>
+            <p>2002</p>
+            <img src="pics/TimelinePhotos/AnaandJared_Christmas2008.jpg" alt="Family Photo" className="input" width="400" />
+            <p>2003</p>
+            <img src="pics/TimelinePhotos/AnaChristmasTimeCabelas.jpg" alt="Christmas Photo" className="input" width="400" />
+            <p>2004</p>
+            <img src="pics/TimelinePhotos/AnaJaredandStacy_Christmas2008.jpg" alt="Christmas 2008" className="input" width="400" />
+            <p>2005</p>
+            <img src="pics/TimelinePhotos/Aug2010FamilyReunionCoeurDLeneLake.jpg" alt="Aug 2010" data-sound="music/banjo.mp3" className="input" width="400" />
+            <p>2006</p>
+            <img src="pics/TimelinePhotos/BabyJaredwithAna.JPG" alt="cello" alt="Baby Jared with Ana" className="input" width="400" />
+            <p>2007</p>
+            <img src="pics/TimelinePhotos/BattlegroundLake_VancouverWA.jpg" alt="Battleground Lake Vancouver WA" data-sound="music/clarinet.mp3" className="input" width="400" />
+            <p>2008</p>
+            <img src="pics/TimelinePhotos/GreatGrandpaLeeHarris.jpg" alt="Great Grandpa Lee Harris" data-sound="music/snare-drum.mp3" className="input" width="400" />
+            <p>2009</p>
+            <img src="pics/TimelinePhotos/Jared_Christmas2008.jpg" alt="Jared Christmas 2008" className="input" width="400" />
+            <p>2010</p>
+            <img src="pics/TimelinePhotos/JaredChristmas2008.jpg" alt="Jared Christmas 2008" className="input" width="400" />
+            <p>THE END</p>
           </div>
         </section>
     );
