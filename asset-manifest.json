@@ -1,7 +1,7 @@
 {
   "main.css": "/CodeMix/static/css/main.f20ac65e.chunk.css",
-  "main.js": "/CodeMix/static/js/main.5bd5d313.chunk.js",
-  "main.js.map": "/CodeMix/static/js/main.5bd5d313.chunk.js.map",
+  "main.js": "/CodeMix/static/js/main.fe34cda6.chunk.js",
+  "main.js.map": "/CodeMix/static/js/main.fe34cda6.chunk.js.map",
   "static/js/1.ec051b8d.chunk.js": "/CodeMix/static/js/1.ec051b8d.chunk.js",
   "static/js/1.ec051b8d.chunk.js.map": "/CodeMix/static/js/1.ec051b8d.chunk.js.map",
   "runtime~main.js": "/CodeMix/static/js/runtime~main.d553348a.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/CodeMix/static/media/logo.5d5d9eef.svg",
   "static/css/main.f20ac65e.chunk.css.map": "/CodeMix/static/css/main.f20ac65e.chunk.css.map",
   "index.html": "/CodeMix/index.html",
-  "precache-manifest.a191f00e7e5c6aea232d792418d9529f.js": "/CodeMix/precache-manifest.a191f00e7e5c6aea232d792418d9529f.js",
+  "precache-manifest.62ee5c3eba8fb34e738760e04517ab0f.js": "/CodeMix/precache-manifest.62ee5c3eba8fb34e738760e04517ab0f.js",
   "service-worker.js": "/CodeMix/service-worker.js"
 }
