@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -30,7 +29,7 @@ class App extends Component {
             <p>2005</p>
             <img src="pics/TimelinePhotos/Aug2010FamilyReunionCoeurDLeneLake.jpg" alt="Family Reunion Aug 2010" data-sound="music/banjo.mp3" className="input" width="400" />
             <p>2006</p>
-            <img src="pics/TimelinePhotos/BabyJaredwithAna.JPG" alt="cello" alt="Baby Jared with Ana" className="input" width="400" />
+            <img src="pics/TimelinePhotos/BabyJaredwithAna.JPG" alt="Baby Jared with Ana" className="input" width="400" />
             <p>2007</p>
             <img src="pics/TimelinePhotos/BattlegroundLake_VancouverWA.jpg" alt="Battleground Lake Vancouver WA" data-sound="music/clarinet.mp3" className="input" width="400" />
             <p>2008</p>
@@ -38,7 +37,7 @@ class App extends Component {
             <p>2009</p>
             <img src="pics/TimelinePhotos/Jared_Christmas2008.jpg" alt="Jared Christmas 2008" className="input" width="400" />
             <p>2010</p>
-            <img src="pics/TimelinePhotos/JaredChristmas2008.jpg" alt="Jared Christmas 2008" className="input" width="400" />
+            <img src="pics/TimelinePhotos/JaredChristmas2008.jpg" alt="Jared Christmas on 2008" className="input" width="400" />
             <p>THE END</p>
           </div>
         </section>
